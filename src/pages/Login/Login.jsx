@@ -1,8 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import Input from '../components/Input/Input';
-import { login } from '../services/api'
-import { setToken } from '../services/auth';
-import NavBar from '../components/NavBar/NavBar';
+import { login } from '../../services/api'
+import { setToken } from '../../services/auth';
+import Input from '../../components/Input/Input';
+import NavBar from '../../components/NavBar/NavBar';
+import './Login.css'
 
 class Login extends Component {
   constructor(props) {
@@ -42,15 +43,19 @@ class Login extends Component {
     return (
       <Fragment>
           <NavBar />
-        <div>
-          <form onSubmit={this.handleLogin} method="POST">
+        <div className='login-container'>
+          <form onSubmit={this.handleLogin} method="POST" className='login-form'>
+            <h1 className='login-title'>A conta digital PJ feita para <strong>autônomos e pequenas empresas</strong><span className='login-dot'></span></h1>
+            <p className='login-text'>Acesse agora sua conta, <strong>é fácil e rápido</strong>.</p>
             {this.state.error && <p>{this.state.error}</p>}
             <Input type="text" placeholder="CPF" name="cpf" value={this.state.password} handleChange={this.handleFormEdit} />
             <Input type="text" placeholder="email" name="email" value={this.state.email} handleChange={this.handleFormEdit} />
             <Input type="password" placeholder="Senha" name="password" value={this.state.password} handleChange={this.handleFormEdit} />
-            <button type="submit">ACESSAR</button>
+            <button className='login-btn' type="submit">ACESSAR</button>
           </form>
-          <img src='/images/conta-digital-pj.jpg' alt='mobile' />
+          <figure className='login-figure'>
+          <img src='/images/conta-digital-pj.jpg' alt='mobile' className='login-img'/>
+          </figure>
         </div>
       </Fragment>
     );

@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "maria@mail.com",
+      "password": "$2a$10$0A0s4CiIN6X0fS359I4C/eKKWzWkoXtbkltyyzKEH3t5Wy0H/2XRe",
+      "name": "Maria Santos",
+      "cpf": "12345678901",
+      "id": 4,
+      "Card": [{"name": "Maria Santos", "numberCar": "1111.2222.3333", "limit": 3000.00 }],
+      "bankStatement":[{"date": "28.11.2019", "institute": "Lojas Americanas", "amount": 278.98, "type": "débito" },
+        {"date": "26.11.2019", "institute": "Sabesp", "amount": 79.99, "type": "débito"},
+        {"date": "20.11.2019", "institute": "Eletropaulo", "amount": 98.03, "type": "débito"},
+        {"date": "15.11.2019", "institute": "Kalunga", "amount": 172.45, "type": "crédito"},
+        {"date": "12.11.2019", "institute": "Extra", "amount": 22.97, "type": "crédito"},
+        {"date": "09.11.2019", "institute": "ABC LTDA", "amount": 560.28, "type": "débito"},
+        {"date": "05.11.2019", "institute": "Livraria Saraiva", "amount": 45.28, "type": "débito"}
+       ]
+    }
+  ]
+}

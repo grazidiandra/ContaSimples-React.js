@@ -6,7 +6,7 @@
       "name": "Maria Santos",
       "cpf": "12345678901",
       "id": 4,
-      "Card": [{"name": "Maria Santos", "numberCar": "1111.2222.3333", "limit": 3000.00 }],
+      "card": [{"name": "Maria Santos", "numberCar": "1111.2222.3333", "limit": 3000.00}],
       "bankStatement":[{"date": "28.11.2019", "institute": "Lojas Americanas", "amount": 278.98, "type": "débito" },
         {"date": "26.11.2019", "institute": "Sabesp", "amount": 79.99, "type": "débito"},
         {"date": "20.11.2019", "institute": "Eletropaulo", "amount": 98.03, "type": "débito"},

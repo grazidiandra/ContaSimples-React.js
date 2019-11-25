@@ -21,6 +21,13 @@
   list-style-type: none;
 }
 
+.NavBar-user {
+  font-size: 18px;
+  color: #555555;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
 .NavBar-ul li a {
   margin: 0 20px;
   font-size: 16px;
@@ -49,4 +56,9 @@
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
   padding: 10px 25px;
+}
+
+
+.NavBar-ul-btn:hover {
+  background-color: #62bd05;
 }

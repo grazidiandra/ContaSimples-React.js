@@ -40,7 +40,7 @@
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: lighter;
   width: 600px;
-  font-size: 25px;
+  font-size: 30px;
   margin: 0 0 50px 0;
   text-align: center;
 }
@@ -60,4 +60,8 @@
   padding: 10px 25px;
   width: 450px;
   height: 50px;
+}
+
+.login-btn:hover {
+  background-color: #62bd05;
 }

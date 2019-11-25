@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css'
 
-const NavBar = () => (
+const NavBar = ({ url, nameUser }) => (
   <div className='NavBar-container'>
     <figure className='NavBar-figure'>
     <img src='/images/logo-conta-simples.svg' alt='logo' />
@@ -12,7 +12,7 @@ const NavBar = () => (
       <li><a href='https://contasimples.com/gestao-de-cobranca/'>COBRANÇA</a></li>
       <li><a href='https://contasimples.com/tarifas/'>TARIFAS</a></li>
       <li><a href='https://contasimples.com/blog/'>BLOG</a></li>
-      <a href='https://contasimples.com/pedir-convite' className='NavBar-ul-btn'>FAÇA SEU CARTÃO</a>
+      {url === '/' ? <a href='https://contasimples.com/pedir-convite' className='NavBar-ul-btn'>FAÇA SEU CARTÃO</a> : <li className='NavBar-user'> Olá, {nameUser} </li>}
     </ul>
   </div>
 )

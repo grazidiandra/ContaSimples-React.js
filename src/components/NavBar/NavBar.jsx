@@ -1,5 +1,7 @@
 import React from 'react';
 import './NavBar.css'
+import { logout } from '../../services/auth';
+import { Link } from 'react-router-dom';
 
 const NavBar = ({ url, nameUser }) => (
   <div className='NavBar-container'>
@@ -13,6 +15,7 @@ const NavBar = ({ url, nameUser }) => (
       <li><a href='https://contasimples.com/tarifas/'>TARIFAS</a></li>
       <li><a href='https://contasimples.com/blog/'>BLOG</a></li>
       {url === '/' ? <a href='https://contasimples.com/pedir-convite' className='NavBar-ul-btn'>FAÇA SEU CARTÃO</a> : <li className='NavBar-user'> Olá, {nameUser} </li>}
+    {url === '/home' ? <button onClick={logout}><Link to='/' >Logout</Link></button> : null }
     </ul>
   </div>
 )

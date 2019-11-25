@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.extrato-container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.bankStatement-container {
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  padding: 400px 30px 50px 30px;
+  border: 1px solid #315126;
+  border-radius: 5px;
+}
+
+.bankStatement-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  font-size: 18px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+
+}
+
+.bankStatement-list p {
+  margin: 10px 80px;
+  width: 200px;
+}
+
+.bankStatement-list strong {
+  margin: 10px 80px;
+  width: 200px;
+}
+
+.card-container {
+  font-size: 20px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #315126;
+}
+
+.card-container p {
+  margin: 5px 50px;
+}
+
+.extrato-btn {
+  margin: 10px 20px;
+  font-size: 20px;
+  color: #838181;
+  border: 1px solid #7be115;
+  background-color: #7be115;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #315126;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding: 10px 25px;
+  height: 50px;
+}
+
+.extrato-btn:hover {
+  background-color: #62bd05;
+}

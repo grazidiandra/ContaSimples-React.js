@@ -46,7 +46,7 @@ class Login extends Component {
         <div className='login-container'>
           <form onSubmit={this.handleLogin} method="POST" className='login-form'>
             <h1 className='login-title'>A conta digital PJ feita para <strong>autônomos e pequenas empresas</strong><span className='login-dot'></span></h1>
-            <p className='login-text'>Acesse agora sua conta pelo, <strong>é fácil e rápido</strong>.</p>
+            <p className='login-text'>Acesse agora sua conta, <strong>é fácil e rápido</strong>.</p>
             {this.state.error && <p>{this.state.error}</p>}
             <Input type="text" placeholder="CPF" name="cpf" value={this.state.cpf} handleChange={this.handleFormEdit} />
             <Input type="text" placeholder="email" name="email" value={this.state.email} handleChange={this.handleFormEdit} />

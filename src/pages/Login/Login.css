@@ -1,6 +1,7 @@
 .login-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
 }
@@ -12,6 +13,7 @@
 
 .login-img {
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .login-form {
@@ -65,3 +67,4 @@
 .login-btn:hover {
   background-color: #62bd05;
 }
+

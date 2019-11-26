@@ -32,7 +32,7 @@ class Extrato extends Component {
             <p>CPF: {ele.cpf}</p>
             <p>Número do cartão: {ele.numberCar}</p>
             <p>Limite do cartão: R$ {ele.limit}</p>
-            <Link to='/home' className='extrato-btn'>Home</Link>
+            <Link to='/home' className='extrato-link'>Home</Link>
             </Fragment>
           )) : null}
           

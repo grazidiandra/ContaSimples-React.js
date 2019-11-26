@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .NavBar-container {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -30,7 +29,6 @@
 
 .NavBar-ul li a {
   margin: 0 20px;
-  font-size: 16px;
   color: #9c9c9c;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -45,7 +43,6 @@
 
 .NavBar-ul-btn {
   margin: 0 20px;
-  font-size: 18px;
   color: #838181;
   border: 1px solid #7be115;
   background-color: #7be115;
@@ -56,9 +53,41 @@
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
   padding: 10px 25px;
+  text-align: center;
 }
 
+.NavBar-ul-link{
+  text-decoration: none;
+  font-size: 16px;
+  color: #315126;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
 
 .NavBar-ul-btn:hover {
   background-color: #62bd05;
+}
+
+/* IPAD PRO */
+@media (min-width: 1023px) {
+
+  .NavBar-ul-btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;  
+  }
+
+  .NavBar-ul li a {
+    margin: 0 20px;
+    padding: 35px 10px;
+    font-size: 14px;
+  }
+  
+  .NavBar-user {
+    font-size: 16px;
+  }
+  .NavBar-ul-link{
+    font-size: 14px;
+  }
+
 }

@@ -24,7 +24,7 @@ npm start # build-in the project
 [HTML](https://devdocs.io/html/)  
 [JSON Server Auth](https://www.npmjs.com/package/json-server-auth)
  
-[Jest](https://jestjs.io/)
+ 
 # Test introduction
 ### front-end test
 Teste para avaliação do nível técnico para posição de frontend.

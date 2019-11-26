@@ -14,7 +14,7 @@ npm install
 Inside project on terminal
 
 ```bash
-npm start # build-in the project
+npm start # build-in the project Port:3000 and json server auth Port:8000
 ```
 ## Technologies
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  

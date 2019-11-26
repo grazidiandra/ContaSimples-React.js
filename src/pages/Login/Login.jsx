@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { login } from '../../services/api'
+import { login } from '../../services/auth'
 import { setToken } from '../../services/auth';
 import Input from '../../components/Input/Input';
 import NavBar from '../../components/NavBar/NavBar';

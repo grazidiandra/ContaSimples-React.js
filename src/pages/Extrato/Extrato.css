@@ -64,7 +64,6 @@
   color: #7be115 ;
 }
 
-/* IPAD PRO */
 @media (max-width: 1024px) {
 
   .bankStatement-list strong {
@@ -81,5 +80,4 @@
     max-height: 1000px;
     padding: 200px 20px 50px 20px;
   }
-
 }

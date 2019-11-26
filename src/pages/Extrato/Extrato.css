@@ -65,7 +65,7 @@
 }
 
 /* IPAD PRO */
-@media (min-width: 1023px) {
+@media (max-width: 1024px) {
 
   .bankStatement-list strong {
     margin: 10px 30px;

@@ -69,7 +69,7 @@
 }
 
 /* IPAD PRO */
-@media (min-width: 1023px) {
+@media (max-width: 1024px) {
 
   .NavBar-ul-btn {
     font-size: 14px;

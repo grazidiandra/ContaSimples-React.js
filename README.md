@@ -8,6 +8,10 @@
 ```bash
 npm install
 ```
+4. And still inside project run npm install -D json-server-auth on terminal to install the dependency in devDependencies.
+```bash
+npm install -D json-server-auth
+```
 
 ## Usage
 
@@ -16,6 +20,16 @@ Inside project on terminal
 ```bash
 npm start # build-in the project Port:3000 and json server auth Port:8000
 ```
+## User access
+
+Na página de login, para acessar a aplicacao, preencha o form com os dados mockados abaixo:
+
+```bash
+cpf: 12345678901
+email: maria@mail.com
+senha: 1234
+```
+
 ## Technologies
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 [React](https://reactjs.org/)  

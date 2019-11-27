@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../../components/NavBar';
 import { api } from '../../services/api';
 import './Extrato.css'
 

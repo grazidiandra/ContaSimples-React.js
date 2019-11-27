@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../../components/NavBar';
 import { api } from '../../services/api';
-import Cards from '../../components/Cards/Cards';
+import Cards from '../../components/Cards';
 import './Home.css'
 
 class Home extends Component {

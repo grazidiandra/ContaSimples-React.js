@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { login } from '../../services/auth'
 import { setToken } from '../../services/auth';
-import Input from '../../components/Input/Input';
-import NavBar from '../../components/NavBar/NavBar';
+import Input from '../../components/Input';
+import NavBar from '../../components/NavBar';
 import './Login.css'
 
 class Login extends Component {

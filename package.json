@@ -11,10 +11,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start & json-server -p 8000 ./mock/db.json -m ./node_modules/json-server-auth",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start & json-server -p 8000 ./mock/db.json -m ./node_modules/json-server-auth"
   },
   "eslintConfig": {
     "extends": "react-app"

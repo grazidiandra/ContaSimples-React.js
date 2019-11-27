@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-import Login from '../pages/Login/Login';
-import Home from '../pages/Home/Home';
-import Extrato from '../pages/Extrato/Extrato';
+import Login from '../pages/Login';
+import Home from '../pages/Home';
+import Extrato from '../pages/Extrato';
 import { isAuthenticated } from '../services/auth';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (

@@ -31,8 +31,8 @@
   "devDependencies": {
     "json-server-auth": "^1.2.1"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "Desenvolvimento da aplicação da interface do que seria o Internet Banking da Conta Simples - Front-end test",
   "main": "index.js",
-  "author": "",
+  "author": "Grazielle Diandra Silva",
   "license": "ISC"
 }

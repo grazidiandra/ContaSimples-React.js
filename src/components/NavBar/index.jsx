@@ -3,6 +3,7 @@ import './NavBar.css'
 import { logout } from '../../services/auth';
 import { Link } from 'react-router-dom';
 
+
 const NavBar = ({ url, nameUser }) => (
   <div className='NavBar-container'>
     <figure className='NavBar-figure'>

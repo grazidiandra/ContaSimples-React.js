@@ -4,7 +4,7 @@
 
 1. Download this repo.
 2. Use the package manager [npm](https://www.npmjs.com/).
-3. Inside project run npm install on terminal to install all dependencies.
+3. Inside the project folder run npm install on terminal to install all dependencies.
 ```bash
 npm install
 ```

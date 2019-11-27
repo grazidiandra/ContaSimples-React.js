@@ -2,27 +2,28 @@
 
 ## Installation
 
-1. Download this repo.
-2. Use the package manager [npm](https://www.npmjs.com/).
-3. Inside the project folder run npm install on terminal to install all dependencies.
+1. Faça o download do repositório pelo terminal.
+2. Use o gerenciador de pacotes [npm](https://www.npmjs.com/).
+3. Dentro da pasta do projeto, execute o npm install no terminal para instalar todas as dependências.
 ```bash
 npm install
 ```
-4. And still inside project run npm install -D json-server-auth on terminal to install the dependency in devDependencies.
+4. ainda dentro da pasta do projeto, execute o [JSON Server Auth](https://www.npmjs.com/package/json-server-auth) no terminal para instalar a dependencia no devDependencies.
+
 ```bash
 npm install -D json-server-auth
 ```
 
-## Usage
+## Execucao
 
-Inside project on terminal
+No terminal, dentro da pasta do projeto rode npm start para iniciar o servidor.
 
 ```bash
 npm start # build-in the project Port:3000 and json server auth Port:8000
 ```
-## User access
+## Acesso na aplicacao
 
-In the login page fill the form with the data mocked to access the application 
+Para fazer o login na apliacacao, preencha o campo de acesso com os dados abaixo: 
 
 ```bash
 cpf: 12345678901
@@ -30,7 +31,7 @@ email: maria@mail.com
 senha: 1234
 ```
 
-## Technologies
+## Tecnologias
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 [React](https://reactjs.org/)  
 [Axios](https://github.com/axios/axios)   
@@ -74,3 +75,7 @@ Desenvolver uma interface do que seria o Internet Banking da Conta Simples, com 
 - Apresentar os dados mockado;
 
 - Versionar o projeto no git (github ou gitlab) com README explicando como subir aplicação;
+
+## Autor
+
+Feito com :heart: por Grazi Diandra.

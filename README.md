@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Conta Simples | test front-end
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Faça o download do repositório pelo terminal.
+2. Use o gerenciador de pacotes [npm](https://www.npmjs.com/).
+3. Dentro da pasta do projeto, execute o npm install no terminal para instalar todas as dependências.
+```bash
+npm install
+```
+4. ainda dentro da pasta do projeto, execute o [JSON Server Auth](https://www.npmjs.com/package/json-server-auth) no terminal para instalar a dependencia no devDependencies.
 
-### `yarn start`
+```bash
+npm install -D json-server-auth
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Execucao
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+No terminal, dentro da pasta do projeto rode npm start para iniciar o servidor.
 
-### `yarn test`
+```bash
+npm start # build-in the project Port:3000 and json server auth Port:8000
+```
+## Acesso na aplicação
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para fazer o login na apliacação, preencha o campo de acesso com os dados abaixo: 
 
-### `yarn build`
+```bash
+cpf: 12345678901
+email: maria@mail.com
+senha: 1234
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+[React](https://reactjs.org/)  
+[Axios](https://github.com/axios/axios)   
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)  
+[HTML](https://devdocs.io/html/)  
+[JSON Server Auth](https://www.npmjs.com/package/json-server-auth)
+ 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Test introduction
+### front-end test
+Teste para avaliação do nível técnico para posição de frontend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### OBJETIVO DA AVALIAÇÃO:
 
-### `yarn eject`
+O objetivo deste desafio é avaliar sua habilidade técnica e capacidade de aprendizado.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O foco é identificar suas habilidade não só em programação, mas também comportamental, portanto, iremos analisar os seguintes critérios:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Capacidade em auto-aprendizado;
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Fazer mais do que o combinado;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Atender prazos e metas;
 
-## Learn More
+### ESPECIFICAÇÕES DA APLICAÇÃO
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Desenvolver uma interface do que seria o Internet Banking da Conta Simples, com as seguintes funcionalidades:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Login
 
-### Code Splitting
+- Home
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Extrato
 
-### Analyzing the Bundle Size
+### PONTOS DE AVALIAÇÃO:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Use a criatividade e benchmark para criar o layout das telas.
 
-### Making a Progressive Web App
+- Utilizar framework React;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Apresentar os dados mockado;
 
-### Advanced Configuration
+- Versionar o projeto no git (github ou gitlab) com README explicando como subir aplicação;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Autor
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feito com :heart: por Grazi Diandra.

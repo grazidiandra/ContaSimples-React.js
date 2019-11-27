@@ -21,9 +21,9 @@ No terminal, dentro da pasta do projeto rode npm start para iniciar o servidor.
 ```bash
 npm start # build-in the project Port:3000 and json server auth Port:8000
 ```
-## Acesso na aplicacao
+## Acesso na aplicação
 
-Para fazer o login na apliacacao, preencha o campo de acesso com os dados abaixo: 
+Para fazer o login na apliacação, preencha o campo de acesso com os dados abaixo: 
 
 ```bash
 cpf: 12345678901
@@ -39,7 +39,7 @@ senha: 1234
 [HTML](https://devdocs.io/html/)  
 [JSON Server Auth](https://www.npmjs.com/package/json-server-auth)
  
- 
+
 # Test introduction
 ### front-end test
 Teste para avaliação do nível técnico para posição de frontend.

@@ -22,7 +22,7 @@ npm start # build-in the project Port:3000 and json server auth Port:8000
 ```
 ## User access
 
-Na página de login, para acessar a aplicacao, preencha o form com os dados mockados abaixo:
+In the login page fill the form with the data mocked to access the application 
 
 ```bash
 cpf: 12345678901

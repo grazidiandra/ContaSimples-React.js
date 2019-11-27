@@ -14,7 +14,7 @@ npm install
 npm install -D json-server-auth
 ```
 
-## Execucao
+## Execução
 
 No terminal, dentro da pasta do projeto rode npm start para iniciar o servidor.
 
